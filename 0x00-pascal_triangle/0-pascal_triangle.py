@@ -7,6 +7,8 @@ def pascal_triangle(n):
     the Pascal's triangle of a given integer.
   '''
 	a = [[] for i in range(n)]
+	if type(n) is not int or n <= 0:
+		return a
 	for i in range(n):
 		for j in range(i + 1):
 			if (j < i):
