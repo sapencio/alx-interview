@@ -3,8 +3,7 @@
 '''
 
 def pascal_triangle(n):
-	'''Creates a list of lists of integers representing
-    the Pascal's triangle of a given integer.
+	'''Creates a list of lists of integers representing the Pascal's triangle of a given integer.
   '''
 	a = [[] for i in range(n)]
 	if type(n) is not int or n <= 0:
