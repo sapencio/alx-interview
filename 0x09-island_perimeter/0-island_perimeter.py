@@ -23,5 +23,5 @@ def island_perimeter(grid):
         # Subtract 2 for each adjacent land cell on the same column
         if j > 0 and grid[i][j-1] == 1:
           perimeter -= 2
-   # Return final perimeter        
+  # Return final perimeter        
   return perimeter
